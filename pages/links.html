@@ -8,6 +8,8 @@
 
     <title>Rehtse Studio Links</title>
 
+    <link rel="canonical" href="/links">
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
 
@@ -141,6 +143,17 @@
     <script src="../package/bootstrap/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
         </script>
+
+    <script>
+        window.onload = function () {
+            var w = window.location.href;
+
+            if (w == "https://rehtse-studio.github.io/pages/links.html") {
+                // window.location.assign("https://rehtse-studio.github.io/pages/links.html");
+                window.history.replaceState("https://rehtse-studio.github.io/", "links", "/links");
+            }
+        }
+    </script>
 </body>
 
 </html>
