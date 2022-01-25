@@ -55,7 +55,9 @@ h6 {
   right: 0;
   left: 0;
 }
-
+p {
+  /* color: white; */
+}
 .shake {
   animation: shake-animation 4.72s ease infinite;
   transform-origin: 50% 50%;
